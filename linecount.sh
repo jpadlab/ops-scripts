@@ -7,10 +7,17 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
+total=0
+
 for file in "$@"; do
     if [ ! -f "$file" ]; then
         echo "Error: '$file' not found" >&2
         exit 1
     fi
-    echo "$file: $(wc -l < "$file")"
+
+    count=$(( $(wc -l < "$file") ))
+    echo "$file: $count"
+    total=$(( total + count ))
 done
+
+echo "Total: $total"
