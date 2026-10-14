@@ -3,7 +3,7 @@
 # Processes each file passed as an argument until error
 
 if [ $# -eq 0 ]; then
-    echo "Usage: $0 <filename>" >&2
+    echo "Usage: $0 <file>" >&2
     exit 1
 fi
 
