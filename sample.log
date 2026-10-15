@@ -1,0 +1,12 @@
+2026-10-12 08:01:14 INFO auth: user jdoe logged in
+2026-10-12 08:03:22 WARN disk: /var at 82% capacity
+2026-10-12 08:15:09 ERROR auth: login failed for user asmith
+2026-10-12 08:15:41 ERROR auth: login failed for user asmith
+2026-10-12 08:47:30 INFO api: request completed in 120ms
+2026-10-12 09:02:11 ERROR db: connection timeout after 30s
+2026-10-12 09:05:55 WARN api: response time 2400ms exceeds threshold
+2026-10-12 09:12:03 INFO auth: user mlee logged in
+2026-10-12 09:30:47 ERROR db: connection timeout after 30s
+2026-10-12 09:31:02 ERROR db: connection timeout after 30s
+2026-10-12 10:00:00 INFO cron: nightly backup started
+2026-10-12 10:14:36 WARN disk: /var at 91% capacity
